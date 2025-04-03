@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- ELMENT is TGA NAME 
+        Attribute of it properties  
+    -->
+    <!-- <label for="email">Email:</label>
+    <input type="" placeholder="" name=""" id="email" class=""/> -->
+
+    <!-- file upload -->
+
+    <!-- <label for="file">Upload file</label> -->
+    <label for="file">Upload</label>
+    <input type="file" id="file" accept=".pdf" name="file" />
+
+    <label for="lastName">Last Name:</label>
+    <input
+      name="lastName"
+      id="lastName"
+      type="text"
+      autocomplete="family-name"
+    />
+
+    <label for="selfie">select</label>
+    <input
+      type="file"
+      id="selfie"
+      name="selfie"
+      accept="image/*"
+    />
+
+    <form action="">
+      <label for="name">Name:</label>
+      <input
+        required
+        maxlength="6"
+        minlength="4"
+        pattern="[A-Za-z]{4,6}"
+        title="Name should be 4 to 6 characters long and contain only letters."
+        type="text"
+        placeholder="Enter your name"
+        name="name"
+        id="name"
+        readonly
+        value="John Doe"
+        disabled
+      />
+      <button type="submit">Submit</button>
+    </form>
+
+    <div>
+      <label for="male">Male</label>
+      <input type="radio" checked value="male" name="gender" id="male" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" value="female" id="female" />
+      <label for="others">others</label>
+      <input type="radio" name="gender" id="others" value="others" />
+    </div>
+
+    <select>
+      <option>USA</option>
+      <option selected>INDIA</option>
+      <option>CHAINA</option>
+    </select>
+    <!-- media tags  -->
+  </body>
+</html>
